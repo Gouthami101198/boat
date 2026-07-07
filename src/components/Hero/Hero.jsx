@@ -1,7 +1,6 @@
 import "./Hero.css";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import heroImage from "../../assets/images/Hero.jpg";
 
 function Hero() {
   return (
