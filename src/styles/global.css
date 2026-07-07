@@ -1,0 +1,128 @@
+:root{
+  --primary:#2563eb;
+  --secondary:#111827;
+  --accent:#06b6d4;
+  --bg:#f8fafc;
+  --white:#ffffff;
+  --text:#374151;
+  --border:#e5e7eb;
+  --shadow:0 8px 25px rgba(0,0,0,.08);
+  --transition:.3s ease;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:"Poppins",sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+img{
+  width:100%;
+  display:block;
+}
+
+button{
+  cursor:pointer;
+  border:none;
+  font-family:inherit;
+}
+
+.container{
+  width:90%;
+  max-width:1300px;
+  margin:auto;
+}
+
+body.dark{
+    background:#0f172a;
+    color:#f8fafc;
+}
+
+body.dark .navbar{
+    background:#111827;
+}
+
+body.dark .navbar.scrolled{
+    background:rgba(15,23,42,.75);
+}
+
+body.dark .hero,
+body.dark .categories,
+body.dark .trending,
+body.dark .features,
+body.dark .products-page,
+body.dark .auth-container,
+body.dark footer{
+    background:#0f172a;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark p,
+body.dark a{
+    color:#f8fafc;
+}
+
+body.dark .product-card,
+body.dark .category-card,
+body.dark .feature-card,
+body.dark .auth-card{
+    background:#1e293b;
+}
+
+body.dark input,
+body.dark select{
+    background:#1e293b;
+    color:white;
+    border:1px solid #475569;
+}
+
+body.dark .icon-btn{
+    background:#334155;
+    color:white;
+}
+
+body.dark .search-box{
+    background:#1e293b;
+}
+
+body.dark .search-box input{
+    color:white;
+    background:transparent;
+    border:none;
+}
+
+body.dark .contact-form,
+body.dark .info-card{
+    background:#1e293b;
+    color:#fff;
+}
+
+body.dark .contact-form input,
+body.dark .contact-form textarea{
+    background:#334155;
+    color:#fff;
+    border-color:#475569;
+}
+
+body.dark .contact-header p,
+body.dark .info-card p{
+    color:#cbd5e1;
+}

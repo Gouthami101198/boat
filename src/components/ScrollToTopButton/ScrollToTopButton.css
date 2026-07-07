@@ -1,0 +1,42 @@
+.scroll-top{
+    position:fixed;
+    bottom:30px;
+    right:25px;
+
+    width:52px;
+    height:52px;
+
+    border:none;
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    color:#fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    opacity:0;
+    visibility:hidden;
+
+    transform:translateY(20px);
+
+    transition:.35s;
+
+    z-index:999;
+}
+
+.scroll-top.show{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}
+
+.scroll-top:hover{
+    transform:translateY(-5px) scale(1.08);
+    box-shadow:0 12px 30px rgba(37,99,235,.35);
+}
